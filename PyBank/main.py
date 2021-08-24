@@ -61,6 +61,7 @@ def printing(month, profit_losses,average_change,MaxIncrease,MinIncrease,monthma
     print(f'Greatest Increase in Profits: {monthmax} ${MaxIncrease}')
     print(f'Greatest Decrease in Profits: {monthmin} ${MinIncrease}')
 
-main()
+if __name__ == "__main__":
+    main()
 
 
