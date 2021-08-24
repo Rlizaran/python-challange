@@ -50,6 +50,7 @@ def main():
         f"{candidates[3]}: {fourthCandidate:1.3f}% ({votes[3]})\n"
         f"-------------------------\nWinner: {winnercandidate}\n"
         "-------------------------")
+        
     # Print to terminal
     print(toprint)
 
