@@ -42,14 +42,14 @@ def main():
     winnercandidate = candidates[votes.index(max(votes))]
 
     # Create variable to hold values to be printed into terminal and text document
-    toprint = ("Election Results\n-------------------------\n"
-    f"Total Votes: {len(totalVotes)}\n-------------------------\n"
+    toprint = ("Election Results\n----------------------------\n"
+    f"Total Votes: {len(totalVotes)}\n----------------------------\n"
         f"{candidates[0]}: {firstCandidate:9.3f}% ({votes[0]})\n"
         f"{candidates[1]}: {secondCandidate:7.3f}% ({votes[1]})\n"
         f"{candidates[2]}: {thirdCandidate:11.3f}% ({votes[2]})\n"
         f"{candidates[3]}: {fourthCandidate:1.3f}% ({votes[3]})\n"
-        f"-------------------------\nWinner: {winnercandidate}\n"
-        "-------------------------")
+        f"----------------------------\nWinner: {winnercandidate}\n"
+        "----------------------------")
         
     # Print to terminal
     print(toprint)

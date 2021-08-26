@@ -44,7 +44,7 @@ def main():
     textpath = os.path.join('analysis','Results.txt')
     with open(textpath,'w') as text:
         dollar = "$"
-        writing = f"Financial Analysis\n-------------------------------------\nTotal Months: {len(month):28}\n"
+        writing = f"Financial Analysis\n--------------------------------------------------\nTotal Months: {len(month):28}\n"
         writing1 =f"Total: {dollar:>33}{sum(profit_losses)}\nAverage Change: {dollar:>24}{averageChange}\n"
         writing2= f"Greatest Increase in Profits: {monthmax} ${MaxIncrease}\nGreatest Decrease in Profits: {monthmin} ${MinIncrease}"
         text.write(writing)
@@ -55,7 +55,7 @@ def main():
 # Print solutions into the terminal
 def printing(month, profit_losses,average_change,MaxIncrease,MinIncrease,monthmax,monthmin):
     dollar = "$"
-    print('Financial Analysis\n-------------------------------------')
+    print('Financial Analysis\n--------------------------------------------------')
     # Clean print into terminal
     print(f'Total Months: {len(month):28}\nTotal: {dollar:>33}{sum(profit_losses)}\nAverage Change: {dollar:>24}{average_change}')
     print(f'Greatest Increase in Profits: {monthmax} ${MaxIncrease}')
