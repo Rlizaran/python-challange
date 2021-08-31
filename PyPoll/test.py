@@ -7,5 +7,4 @@ import csv
 filepath = os.path.join('Resources', 'election_data.csv')
 with open(filepath, 'r') as file:
         csv_reader = csv.reader(file, delimiter=',')
-        for row in csv_reader:
-            print(row)
+        
