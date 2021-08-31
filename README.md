@@ -5,7 +5,7 @@
 Python script for analyzing the financial records of a company. 
 The dataset is composed of two columns: Date and Profit/Losses.
 
-Data set **budget_data.csv**.
+Dataset **budget_data.csv**.
 
 
 The Python script analyzes the financial records and calculates each of the following:
@@ -27,7 +27,7 @@ The Python script analyzes the financial records and calculates each of the foll
 Python Script for analysis small, rural town vote-counting process. 
 The dataset is composed of three columns: Voter ID, County, and Candidate.
 
-Data set **election_data.csv.**
+Dataset **election_data.csv.**
 
 The Python script analyzes the votes and calculates each of the following:
 
